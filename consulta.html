@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Agende consulta</h2>
+    <form class="Alta" action="guardarC.php" method="POST">
+
+    <label for="Codigo">Coloca Codigo </label>
+    <input type="text" id="Codigo" name="Codigo" maxlength="15" required><br><br>
+    
+    <label for="NombreDoctor">Nombre del doctor</label>
+    <input type="text" id="NombreDoctor" name="NombreDoctor" maxlength="50" required><br><br>
+
+    <label for="cita">Fecha de la cita</label>
+    <input type="text" id="cita" name="cita" maxlength="25" required><br><br>
+
+
+    <button class="submit" type="submit">Agendar cita</button> 
+    <title>Document</title>
+</form>
+</div>
+</body>
+</html>

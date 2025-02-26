@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+
+    <h2>Proporcione los datos del paciente nuevo</h2>
+    <form class="Alta" action="guardarP.php" method="POST">
+
+    <label for="Codigo">Coloca codigo de paciente </label>
+    <input type="text" id="Codigo" name="Codigo" maxlength="15" required><br><br>
+    
+    <label for="Nombre">Nombre  </label>
+    <input type="text" id="Nombre" name="Nombre" maxlength="30" required><br><br>
+
+    <label for="Apellidos">Apellidos </label>
+    <input type="text" id="Apellidos" name="Apellidos" maxlength="30" required><br><br>
+
+    <label for="Edad"> Edad</label>
+    <input type="number" id="Edad" name="Edad" maxlength="5" required><br><br>
+
+    <label for="Telefono"> Telefono </label>
+    <input type="text" id="Telefono" name="Telefono" maxlength="10" required><br><br>
+
+    <button class="submit" type="submit">Registrar paciente</button>
+    </form>
+    </div>
+</body>
+</html>
