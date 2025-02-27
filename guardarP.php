@@ -12,7 +12,6 @@
     
 //usa la sentencia conexion
     if ($conexion->query($consulta) === TRUE) {
-        echo "Registro insertado correctamente";
         header("Location: consulta.html");
     } else {
         echo "Error: " . $conexion->error;
